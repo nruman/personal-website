@@ -1,0 +1,156 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  z-index: 999;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  margin-left: 10vw;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10vw;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+section {
+  margin: 50px 0;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 10px;
+  width: 60vw;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Specific styles */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-columns {
+  max-width: 60vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.about-column {
+  margin: 0 5vw 0 5vw;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-column h3 {
+white-space: nowrap;
+}
+
+.about-section h4 {
+  margin-bottom: 5px;
+}
+
+.project-columns {
+  max-width: 60vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.project-column {
+  margin: 0 5vw 0 5vw;
+}
+
+.contact-column {
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#about {
+  padding-top: 10vh;
+}
