@@ -1,10 +1,12 @@
-/* Global styles */
-
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
+}
+
+section {
+  height: 100vh;
 }
 
 a {
@@ -14,7 +16,6 @@ a {
 
 ul {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -25,23 +26,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
-  z-index: 999;
 }
 
 h1 {
   font-size: 36px;
-  margin: 0;
-  margin-left: 10vw;
+  margin: 0 0 0 5vw;
 }
 
 nav ul {
   display: flex;
-  margin-right: 10vw;
+  margin: 0 5vw 0 0;
 }
 
 nav ul li {
@@ -49,24 +43,11 @@ nav ul li {
   margin-right: 20px;
 }
 
-section {
-  margin: 50px 0;
-  padding: 20px;
-}
-
 h2 {
   font-size: 24px;
   margin: 0;
   text-align: center;
-  margin-bottom: 3vw;
-}
-
-p {
-  margin: 0 0 20px;
-}
-
-form {
-  margin-top: 20px;
+  margin: 5vw 0 2vw 0;
 }
 
 label {
@@ -102,13 +83,6 @@ button[type="submit"]:hover {
   background-color: #555;
 }
 
-/* Specific styles */
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .about-columns {
   max-width: 60vw;
   display: flex;
@@ -125,7 +99,7 @@ img {
 }
 
 .about-column h3 {
-white-space: nowrap;
+  white-space: nowrap;
 }
 
 .about-section h4 {
@@ -139,7 +113,6 @@ white-space: nowrap;
   margin: 0 auto;
 }
 
-
 .project-column {
   margin: 0 5vw 0 5vw;
 }
@@ -149,8 +122,4 @@ white-space: nowrap;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-}
-
-#about {
-  padding-top: 10vh;
 }
